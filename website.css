@@ -1,0 +1,121 @@
+div{
+    border: 1px solid black;
+}
+#container
+{
+    margin: 0 auto;
+    width: 800px;
+    height: 10000px;
+}
+#nav
+{
+    margin: 0 auto;
+    width: 700px;
+    height: 100px;
+}
+#name
+{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    top: 25px;
+}
+#link
+{
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    height: 50px;
+    float: right;
+    position: relative;
+    top: 25px;
+}
+#link > ul
+{
+    list-style-type: none;
+}
+#link > ul li
+{
+    display: inline-block;
+    width: 100px;
+}
+#link a:link
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+#link a:visited
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+}
+#Intoduce
+{
+    margin: 0 auto;
+    width: 700px;
+    height: 800px;
+    border: 1px solid black;
+}
+#face
+{
+    margin: 0;
+    padding: 0;
+    width: 180px;
+    display: inline-block;
+    float: left;
+}
+#Myself
+{
+    margin: 0;
+    padding: 0;
+    width: 700px;
+    height: 300px;
+    line-height: 30px;
+}
+#Hobby
+{
+    margin: 0;
+    padding: 0;
+    width: 700px;
+    height:250px;
+    line-height: 30px;
+}
+#Dream
+{
+    margin: 0;
+    padding: 0;
+    width: 700px;
+    height:250px;
+    line-height: 30px;
+}
+#History
+{
+    margin: 0 auto;
+    padding: 0;
+    width: 700px;
+    height: 800px;
+}
+#SNS
+{
+    margin: 0 auto;
+    width: 700px;
+    height: 800px;
+}
+#SNS ul
+{
+    list-style-type: none;
+}
+#SNS img
+{
+    display: block;
+}
+@media screen and (max-width: 767px){
+    
+}
