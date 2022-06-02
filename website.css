@@ -1,11 +1,12 @@
-/* div{
-    border: 1px solid black;
-} */
+
+.Mobile{
+    display:none;
+}
 #container
 {
     margin: 0 auto;
     width: 800px;
-    height: 10000px;
+    height: auto;
 }
 #nav
 {
@@ -22,6 +23,16 @@
     display: inline-block;
     position: relative;
     top: 25px;
+   
+}
+#name a{
+    position: relative;
+    top: 20px;
+    right: 30px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
 }
 #link
 {
@@ -57,11 +68,11 @@
     color: gray;
 }
 
-#Intoduce
+#Introduce
 {
     margin: 0 auto;
     width: 700px;
-    height: 800px;
+    height: 830px;
     border: 1px solid black;
 }
 #face
@@ -102,23 +113,68 @@
     padding: 0;
     width: 700px;
     height: 800px;
+    border: 1px solid black;
 }
 #SNS
 {
     margin: 0 auto;
     width: 700px;
     height: 800px;
+    border: 1px solid black;
 }
 #SNS ul
 {
     list-style-type: none;
 }
+#SNS li
+{
+    margin: 0;
+    padding: 0;
+    width: 140px;
+    height: 50px;
+}
 #SNS img
 {
     display: block;
 }
+#SNS_box
+{
+   margin: 0 auto; 
+   padding: 0;
+   width: 100px;
+   height: 400px;
+}
+.main{
+    display:contents;
+}
+.other{
+    display:none;
+}
 @media screen and (max-width: 767px){
-    #container
+
+.Mobile{
+    display:block;
+}
+
+label.menu{
+    border: 1px solid black;
+    padding: 4px;
+}
+input#menu{
+    display:none;
+
+}
+nav#main_nav{
+    display: none;
+}
+input#menu:checked + nav#main_nav{
+    display: block;
+}
+
+.NMobile{
+    display: none;
+}
+#container
 {
     margin: 0 auto;
     width: auto;
@@ -174,7 +230,7 @@
     color: gray;
 }
 
-#Intoduce
+#Introduce
 {
     margin: 0 auto;
     width: auto;
@@ -230,8 +286,22 @@
 {
     list-style-type: none;
 }
+#SNS li
+{
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: auto;
+}
 #SNS img
 {
     display: block;
+}
+#SNS_box
+{
+   margin: 0 auto; 
+   padding: 0;
+   width: 100px;
+   height: 400px;
 }
 }

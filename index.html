@@ -3,25 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=1000 user-scalable=no, maximum-scale=1.0 initial-scale=1.0">
     <title>MyWebSite</title>
     <link rel="stylesheet" href="./website.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="./index.js"></script>
 </head>
 <body>
     <div id = "container">
         <div id = "nav">
             <div id = "name">
-                <h2>ChoiJunHyeok</h2>
+                <a href = "#Introduce">ChoiJunHyeok</h2>
             </div>
             <div id = "link">
-                <ul>
-                    <li><a href = "#">Intoduce</a></li>
-                    <li><a href = "#">History</a></li>
-                    <li><a href = "#">SNS</a></li>   
+                <ul class="NMobile">
+                    <li><a href = "#Introduce">Introduce</a></li>
+                    <li><a href = "#History">History</a></li>
+                    <li><a href = "#SNS">SNS</a></li>   
                 </ul>
+                <div class="Mobile">
+                    <label class="menu" for="menu">메뉴</label>
+                    <input id="menu" type="checkbox">
+                    <nav id="main_nav">
+                        <ul>
+                            <li><a href = "#Introduce">Introduce</a></li>
+                            <li><a href = "#History">History</a></li>
+                            <li><a href = "#SNS">SNS</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
-        <div id = "Intoduce">
+
+        <div id = "Introduce">
             <div id = "face">
                 <img src="./myface.png" width="170px">
             </div>
@@ -36,7 +50,6 @@
                 </p>
                 <hr>
             </div>
-           
             <div id="Hobby">
                 <h2>Hobby</h2>
                 <p>저는 힙합 음악을 듣는 것을 좋아하며 주로 국내 음악을 듣습니다. 저는 고등학생 시절 솔직하고
@@ -44,6 +57,7 @@
                     oceanformtheblue와 제이씨유카, skinny brown, 애쉬 아일랜드, 김승민 등이있습니다. 각 아티스트마다 추천해주고
                     싶은 노래는 김승민-하나둘, 제이씨유카-흘러, skinny brown-사라지나요, oceanformtheblue-셜록 등이 있습니다. 
                 </p>
+                <hr>
             </div>
             <div id="Dream">
                 <h2>Dream</h2>
@@ -66,7 +80,7 @@
             <br>
             <p><b>2016.03</b> - 육민관고등학교 입학</p>
             <p><b>2017.04</b> - 수학동아리 '기러기' 회장 역임</p>
-            <p><b>2017.04</b> - 프로그래밍 동아리 가입</p>
+            <p><b>2017.04</b> - 코딩 동아리 가입</p>
             <p><b>2017.08</b> - 육민관고 학생회 선도부 역임</p>
             <p><b>2018.12</b> - 육민관고등학교 졸업</p>
             <br>
@@ -77,20 +91,23 @@
             <p><b>2021.10</b> - 병장 만기 전역</p>
             <p><b>2022.03</b> - 강원대학교 복학</p>
         </div>
-        <div id = "SNS">
-            <ul>
-                <li>
-                    <a href = "https://www.facebook.com/profile.php?id=100031108602958" target="_blank"><img src="./facebook.png" width="50px" ></a>
-                </li>
-                <br>
-                <li>
-                    <a href = "https://www.instagram.com/be.2.light/" target="_blank"><img src="./insta.jpg" width="50px"></a>
-                </li>
-                <br>
-                <li>
-                    <a href = "https://www.youtube.com/channel/UCl_MggFLzPyaYnB9vB83S7w" target="_blank"><img src="./youtube.png" width="50px"></a>             
-                </li>
-            </ul>   
+         <div id = "SNS">
+            <div id="SNS_box">
+                <ul>
+                    <h1>SNS</h1>
+                    <li>
+                        <a href = "https://www.facebook.com/profile.php?id=100031108602958" target="_blank"><img src="./facebook.png" width="50px" ></a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href = "https://www.instagram.com/be.2.light/" target="_blank"><img src="./insta.jpg" width="50px"></a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href = "https://www.youtube.com/channel/UCl_MggFLzPyaYnB9vB83S7w" target="_blank"><img src="./youtube.png" width="50px"></a>             
+                    </li>
+                </ul> 
+            </div>  
         </div>
     </div>
 </body>
