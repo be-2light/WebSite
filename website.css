@@ -6,7 +6,6 @@
 {
     margin: 0 auto;
     width: 800px;
-    height: auto;
 }
 #nav
 {
@@ -305,3 +304,159 @@ input#menu:checked + nav#main_nav{
    height: 400px;
 }
 }
+
+@media screen and (max-width: 400px){
+
+    .Mobile{
+        display:block;
+    }
+    
+    label.menu{
+        border: 1px solid black;
+        padding: 4px;
+    }
+    input#menu{
+        display:none;
+    
+    }
+    nav#main_nav{
+        display: none;
+    }
+    input#menu:checked + nav#main_nav{
+        display: block;
+    }
+    
+    .NMobile{
+        display: none;
+    }
+    #container
+    {
+        margin: 0 auto;
+        width: auto;
+        height: 10000px;
+    }
+    #nav
+    {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+    }
+    #name
+    {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: auto;
+        display: inline-block;
+        position: relative;
+        top: auto;
+    }
+    #link
+    {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: auto;
+        float: right;
+        position: relative;
+        top: auto;
+    }
+    #link > ul
+    {
+        list-style-type: none;
+    }
+    #link > ul li
+    {
+        display: inline-block;
+        width: auto;
+    }
+    #link a:link
+    {
+        text-decoration: none;
+        font-size: auto;
+        font-weight: bold;
+        color: gray;
+    }
+    #link a:visited
+    {
+        text-decoration: none;
+        font-size: auto;
+        font-weight: bold;
+        color: gray;
+    }
+    
+    #Introduce
+    {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        border: 1px solid black;
+    }
+    #face
+    {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        display: inline-block;
+        float: left;
+    }
+    #Myself
+    {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height: auto;
+        line-height: auto;
+    }
+    #Hobby
+    {
+        margin: 0;
+        padding: 0;
+        width: auto;
+        height:auto;
+        line-height: auto;
+    }
+    #Dream
+    {
+        margin: 0;
+        padding: auto;
+        width: auto;
+        height:auto;
+        line-height: auto;
+    }
+    #History
+    {
+        margin: 0 auto;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+    #SNS
+    {
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+    }
+    #SNS ul
+    {
+        list-style-type: none;
+    }
+    #SNS li
+    {
+        margin: 0;
+        padding: 0;
+        width: 100px;
+        height: auto;
+    }
+    #SNS img
+    {
+        display: block;
+    }
+    #SNS_box
+    {
+       margin: 0 auto; 
+       padding: 0;
+       width: 100px;
+       height: 400px;
+    }
+    }
